@@ -1,0 +1,137 @@
+body{ 
+	background:url("../img/bg.jpg") top right no-repeat; background-attachment:fixed; 
+}
+
+.wrap header{
+	height: 100px;
+	background: white;
+	position: fixed;
+	top:0px;
+	overflow:hidden;
+}
+
+header img{
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+nav{
+	padding-top: 10px;
+}
+
+nav li{
+	display: inline;
+}
+
+ul{
+	float: right;
+	padding: 20px;
+}
+
+li a{
+	text-decoration: none;
+	color: #4b4745;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+
+li a:hover{
+	color: black;
+}
+
+.hero{
+	overflow: hidden;
+}
+
+.hero h1{
+	color: white;
+	font-weight: normal;
+	text-align: center;
+}
+
+h3{
+	background: -webkit-linear-gradient(#333, #f66807); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#333, #f66807); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#333, #f66807); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#333, #f66807); /* Standard syntax */
+	height: 150px;
+	font-family: Arial;
+	font-size: 28px;
+	font-weight: normal;
+	color: black;
+	padding: 25px;
+}
+
+.primary section{
+	color: white;
+}
+
+.primary h4{
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+ .article1 img{
+	padding-left: 80px;
+	padding-right: 80px;
+	margin-top: 20px;
+ }
+
+.article2 {
+	float: right;
+	color: white;
+}
+
+.article2 h4{
+	font-weight: normal;
+}
+
+.article2 {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.footer{
+	margin-top: 40px;
+	text-align: left;
+	background-color: #111;
+	font-weight: normal;
+	color: white;
+}
+
+.footer h5{
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-weight: normal;
+}
+
+.footer li{
+	margin-left: 0px;
+}
+
+.footer ul{
+	margin-left: 20px;
+	list-style: none;
+	float: left;
+	padding: 0px;
+}
+
+.outer{
+	margin-top: 20px;
+	height: 200px;
+	background-color: white;
+}
+
+.in{
+	float: right;
+	height: 100px;
+	background-color: red;
+}
+
+.in li{
+	float: left;
+}
